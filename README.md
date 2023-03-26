@@ -17,6 +17,6 @@ These are just the start of what they can do but soon we will like to add:
 
 ## To see the current design for the app
 
-To try go to'https://www.figma.com/proto/Pbg7hFzypiduNwsDtLeeQI/Project-Hope?node-id=1-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A2'
+To try go to'https://www.figma.com/proto/Pbg7hFzypiduNwsDtLeeQI/Project-Hope?node-id=1-2&scaling=contain&page-id=0%3A1&starting-point-node-id=1%3A2&hide-ui=1'
 
 To see our sample video, go to 'https://youtu.be/mHDBH0_2Q9Y'
