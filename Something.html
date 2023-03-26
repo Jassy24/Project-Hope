@@ -1,0 +1,66 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> Home Page </title>
+</head>
+<style>
+body {
+background-color: #DBF9FC;
+}
+ </style>
+    <table style="width:100%"
+<body>
+
+<h1> Welcome Back Jasani! </h1>
+<p> How do you feel today? </p>
+
+    <div class="tab">
+        <button class="tablinks" onclick="openMood(event, 'Happy')">Happy</button>
+        <button class="tablinks" onclick="openMood(event, 'Ok')">Ok</button>
+        <button class="tablinks" onclick="openMood(event, 'Sad')">Sad</button>
+        <button class="tablinks" onclick="openMood(event, 'Angry')">Angry</button>
+      </div>
+      
+
+      <script>
+        function openMood(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        </script>
+  
+  <!-- Tab content -->
+  <div id="Happy" class="tabcontent">
+    <h3>Happy</h3>
+    <p>Im glad that you are feeling happy!</p>
+  </div>
+
+  <div id="Ok" class="tabcontent">
+    <h3>Ok</h3>
+    <p>Its alright to feel ok every now and then.</p>
+  </div>
+  
+  <div id="Sad" class="tabcontent">
+    <h3>Sad</h3>
+    <p>Im sorry you feel sad. Hope you get better!</p>
+  </div>
+  
+  <div id="Angry" class="tabcontent">
+    <h3>Angry</h3>
+    <p>Oh wow! Lets relax a little bit.</p>
+  </div>
+
+
+</body>
+</html>
